@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Three Credit Card Layouts</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .credit-card1, .credit-card2, .credit-card3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    position: relative;
+}
+.credit-card1{ background-color: rgb(64, 154, 131); color: #ffffff;} 
+.credit-card3{ background-color: rgb(179, 135, 25); color: #ffffff;}
+    .card-number {
+        font-size: 18px;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .card-holder,
+    .expiry-date,
+    .security-code {
+        /* margin-bottom: 10px; */
+    }
+
+    .card-number,
+    .expiry-date,
+    .security-code,
+    .card-holder,
+    .card-type {
+        display: flex;
+        /* justify-content: space-between; */
+    }
+
+    .card-type {
+        margin-bottom: 15px;
+        flex: 1;
+    }
+    .expiry-date span,  .card-holder span{ font-size: 12px;}
+    .card-type img {
+    width: 40px;
+    height: auto;
+    top: 20px;
+    right: 20px;
+    position: absolute;
+}
+.card-holder span{ margin-top: 2px;}
+span.bnp {
+    margin-left: 15px;
+}
+.card-number span {
+    margin-right: 12px;
+    font-size: 25px;
+}
+body {
+            font-family: Arial, sans-serif;
+        }
+        .testimonial {
+            display: flex;
+            align-items: center;
+            background-color: #525fd2;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 3px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 30%;
+        }
+        .testimonial img {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            margin-right: 20px;
+        }
+        .testimonial-content {
+            flex: 1;
+        }
+        .testimonial-name {
+            font-weight: bold;
+            margin-top: 10px;
+            color: #ffffff;
+        }
+        .rating {
+            color: #ffffff; /* Yellow color for rating stars */
+            font-size: 25px;
+        }
+        .company{color:#ffffff; font-size: 11px;}
+        
+.new-line {
+      
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+</style>
+</head>
+<body>
+   <div class="new-line">
+    <div class="credit-card1">
+        <div class="card-type">
+            <img src="./img3/visa.png" alt="Visa">
+        </div>
+        <div class="card-number">
+            <span>&bull; &#8226; &bull; &#8226;</span> 
+            <span>&bull; &#8226; &bull; &#8226;</span>
+            <span>&bull; &#8226; &bull; &#8226;</span>
+         8845
+        </div>
+        <div class="expiry-date">
+            <span>Expires 3/21</span>
+            <span class="bnp">BNP</span>
+        </div>
+        <div class="card-holder">
+            <span>Maxence Bouret</span>
+        </div>     
+    </div>
+
+    <div class="credit-card2">
+        <div class="card-type">
+            <img src="./img3/master-card.svg" alt="Mastercard">
+        </div>
+        <div class="card-number">
+            <span>&bull; &#8226; &bull; &#8226;</span> 
+            <span>&bull; &#8226; &bull; &#8226;</span>
+            <span>&bull; &#8226; &bull; &#8226;</span>
+         0995
+        </div>
+        <div class="expiry-date">
+            <span>Expires 03/21</span>
+            <span class="bnp">N26</span>
+        </div>
+        <div class="card-holder">
+            <span>Maxence Bouret</span>
+        </div> 
+    </div>
+
+    <div class="credit-card3">
+        <div class="card-type">
+            <img src="./img3/visa.png" alt="American Express">
+        </div>
+        <div class="card-number">
+            <span>&bull; &#8226; &bull; &#8226;</span> 
+            <span>&bull; &#8226; &bull; &#8226;</span>
+            <span>&bull; &#8226; &bull; &#8226;</span>
+        6984
+        </div>
+        <div class="expiry-date">
+            <span>Expires 12/19</span>
+            <span class="bnp">BNP</span>
+        </div>
+        <div class="card-holder">
+            <span>Satnam Kaur</span>
+        </div> 
+    </div>
+</div>
+<div class="new-line">
+    <div class="testimonial">
+        <img src="./img3/p1.jpg" alt="Profile Picture">
+        <div class="testimonial-content">
+            <span class="testimonial-name">Travis Kalanick</span>
+            <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+            <span class="company">Toyata Corolla Altis - CO42DE</span>
+  
+        </div>
+    </div>
+    <div class="testimonial">
+        <img src="./img3/p2.jpg" alt="Profile Picture">
+        <div class="testimonial-content">
+            <span class="testimonial-name">Dara Khosrowshahi</span>
+            <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <span class="company">Audi A3 -BE33ER</span>
+            
+        </div>
+        
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
